@@ -1,0 +1,2 @@
+# yolov-ollamaAI-
+该项目基于已经训练好的yolov模型给它部署Ai模型进行检测分析，打破了传统yolov模型只有predict值需要专家来进行分析的局面，它可以边predict边进行分析给出用户想要的有用信息
