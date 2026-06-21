@@ -1,0 +1,19 @@
+Ollama 本地大模型服务
+作用：运行 Qwen2.5 3B 大模型，生成病害诊断报告、回答农业问题
+安装：官网下载 Ollama 客户端，执行 ollama pull qwen2.5:3b 拉取模型
+启动：终端执行 ollama serve 后台常驻运行
+
+FFmpeg 音视频工具
+作用：Whisper 语音识别的依赖，用于音频格式解码
+
+Windows：下载 ffmpeg 并配置系统环境变量
+验证：终端执行 ffmpeg -version 有输出版本即为成功
+
+YOLO 预训练权重文件
+作用：玉米病害检测的核心模型文件
+路径：对应代码中 MODEL_PATH 配置的本地 best.pt 路径
+要求：自行训练的玉米病害 YOLOv8 权重，或公开数据集训练的病害检测模型
+前端运行环境
+
+HBuilderX 编辑器：用于 uni-app 前端项目的编译、打包、真机调试
+自定义调试基座：Android 端使用录音、相机权限必须制作自定义基座

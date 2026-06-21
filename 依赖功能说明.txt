@@ -1,0 +1,12 @@
+分类			依赖包				核心作用
+Web 服务	flask				轻量后端 Web 框架，提供所有 API 接口服务
+Web 服务	flask-cors			全局开启跨域，解决前端 H5 页面跨域请求报错
+深度学习		torch				PyTorch 深度学习框架，YOLO、Whisper 模型的运行基础
+深度学习		ultralytics==8.3.33	YOLOv8 目标检测库，用于玉米病害病灶识别与定位
+语音交互		openai-whisper		OpenAI 开源语音识别模型，实现录音转文字功能
+语音交互		edge-tts				微软离线文字转语音工具，生成 AI 语音回复音频
+图像处理		opencv-python		计算机视觉库，实现检测结果标注框绘制、图片格式转换
+图像处理		pillow				图片读写、格式处理，辅助图像预处理
+数值计算		numpy				数值计算、数组处理，AI 模型推理的基础数据结构
+数据可视化	matplotlib			生成病害数量统计柱状图，可视化检测结果
+工具类		requests				发送 HTTP 请求，调用本地 Ollama 大模型接口
