@@ -1,0 +1,141 @@
+{
+	"pages": [
+		{
+			"path": "pages/splash/splash",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false,
+					"splashscreen": {
+						"alwaysShowBeforeRender": false,
+						"autoclose": false
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "玉米病害检测",
+				"navigationBarBackgroundColor": "#7c3aed",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "AI专家问答",
+				"navigationBarBackgroundColor": "#7c3aed",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/record/record",
+			"style": {
+				"navigationBarTitleText": "检测记录",
+				"navigationBarBackgroundColor": "#7c3aed",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor": "#7c3aed",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/favorites/favorites",
+			"style": {
+				"navigationBarTitleText": "收藏的防治方案",
+				"navigationBarBackgroundColor": "#7c3aed",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/batch/batch",
+			"style": {
+				"navigationBarTitleText": "批量图片检测",
+				"navigationBarBackgroundColor": "#7c3aed",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/map/map",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/mall/mall",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "玉米病害诊断",
+		"navigationBarBackgroundColor": "#7c3aed",
+		"backgroundColor": "#f5f5f5"
+	},
+	"tabBar": {
+	  "color": "#666666",
+	  "selectedColor": "#7c3aed",
+	  "backgroundColor": "#ffffff",
+	  "borderStyle": "black",
+	  "list": [
+	    {
+	      "pagePath": "pages/index/index",
+	      "text": "病害检测",
+	      "iconPath": "static/detect.png",
+	      "selectedIconPath": "static/detect.png"
+	    },
+	    {
+	      "pagePath": "pages/chat/chat",
+	      "text": "AI问答",
+	      "iconPath": "static/AI.png",
+	      "selectedIconPath": "static/AI.png"
+	    },
+	    {
+	      "pagePath": "pages/record/record",
+	      "text": "检测记录",
+	      "iconPath": "static/report.png",
+	      "selectedIconPath": "static/report.png"
+	    },
+	    {
+	      "pagePath": "pages/map/map",
+	      "text": "站点",
+	      "iconPath": "static/marker.png",
+	      "selectedIconPath": "static/marker.png"
+	    },
+		{
+		        "pagePath": "pages/mall/mall",
+		        "text": "商城",
+		        "iconPath": "static/mall.png",
+		        "selectedIconPath": "static/mall.png"
+		      },
+			  {
+			    "pagePath": "pages/mine/mine",
+			    "text": "我的",
+			    "iconPath": "static/my.png",
+			    "selectedIconPath": "static/my.png"
+			  }
+	  ]
+	},
+	"condition": {
+		"current": 0,
+		"list": [
+			{
+				"name": "",
+				"path": "",
+				"query": ""
+			}
+		]
+	},
+	"lazyCodeLoading": "requiredComponents"
+}
